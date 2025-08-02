@@ -1,4 +1,4 @@
-# Cybersecurity Network Monitoring Tool
+# CyberGlobe - Global Network Traffic  Monitoring 
 
 A Python-based tool for analyzing network traffic from PCAP files and live capture, visualizing IP connections with geolocation, heatmaps, and real-time threat detection.
 
