@@ -8,7 +8,6 @@ A Python-based tool for analyzing network traffic from PCAP files and live captu
 - IP geolocation mapping to show source and destination globally
 - Interactive visualizations with heatmaps and connection lines
 - Real-time threat detection and alerting
-- Web interface built with Flask and Streamlit for easy interaction
 - Export network paths in KML format for Google Earth visualization
 
 ## Technologies Used
@@ -16,7 +15,6 @@ A Python-based tool for analyzing network traffic from PCAP files and live captu
 - Python
 - Scapy (packet capture and analysis)
 - GeoIP (IP geolocation)
-- Flask & Streamlit (web interface)
 - Wireshark (PCAP analysis)
 - KML generation for geospatial visualization
 
@@ -43,9 +41,9 @@ A Python-based tool for analyzing network traffic from PCAP files and live captu
    ```bash
    pip install -r requirements.txt
 
-4.Run the application:
+4. Run the application:
    ```bash
-  python app.py
+     python app.py
  ```
   
 ## Usage
