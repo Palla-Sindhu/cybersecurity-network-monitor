@@ -25,14 +25,28 @@ A Python-based tool for analyzing network traffic from PCAP files and live captu
 1. Clone the repository:
    ```bash
    git clone https://github.com/Palla-Sindhu/cybersecurity-network-monitor.git
-2.Create and activate a virtual environment:
-  python -m venv .venv
-  source .venv/bin/activate      # On Linux/macOS
-  .venv\Scripts\activate         # On Windows
-3.Install dependencies:
-  pip install -r requirements.txt
+2. Create and activate a virtual environment:
+
+   - On Linux/macOS:
+     ```bash
+     python -m venv .venv
+     source .venv/bin/activate
+     ```
+
+   - On Windows:
+     ```powershell
+     python -m venv .venv
+     .venv\Scripts\activate
+     ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
 4.Run the application:
+   ```bash
   python app.py
+ ```
   
 ## Usage
   Upload PCAP files or start live capture to analyze network traffic.
